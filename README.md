@@ -1,17 +1,29 @@
-# daily_note
+# Daily Note
 
-A new Flutter project.
+Flutterで開発したシンプルな日記アプリです。
 
-## Getting Started
+## 概要
 
-This project is a starting point for a Flutter application.
+日々の出来事や思い出を記録・管理できる日記アプリです。
 
-A few resources to get you started if this is your first Flutter project:
+## 主な機能
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- 日記の新規作成
+- 日記の一覧表示
+- 日記の詳細表示
+- 日記の編集
+- 日記の削除
+- 入力内容のバリデーション
+- アプリ再起動後もデータを保持
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 使用技術
+
+- Flutter
+- Dart
+- SQLite（sqflite）
+
+## データ保存
+
+SQLiteを使用し、端末内に日記データを保存しています。
+
+クラウド通信は使用していません。
